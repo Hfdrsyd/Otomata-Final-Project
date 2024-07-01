@@ -22,3 +22,11 @@ def isPalindrome(string: str) -> bool:
         i += 1
         
     return True
+
+string = input("Enter word: ")
+
+
+if isPalindrome(string):
+    print(f"{string} adalah Palindrome")
+else:
+    print(f"{string} bukan Palindrome")
